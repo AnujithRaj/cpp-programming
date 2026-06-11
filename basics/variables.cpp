@@ -2,37 +2,31 @@
 using namespace std;
 int main() {
     // Take name as input and print.
-    {
-        string name;
+    string name;
 
-        cout << "Enter Name: ";
-        cin >> name;
+    cout << "Enter Name: ";
+    cin >> name;
 
-        cout << "Name: " << name << endl;
-    }
+    cout << "Name: " << name << endl;
+    
 
 
     // Take two numbers and print their: sum, difference, product, and division.
-    {
-        int a, b;
-        a = 20;
-        b = 30;
+    int a, b;
+    a = 20;
+    b = 30;
 
-        cout << "Sum: " << a + b << endl;
-        cout << "Difference: " << a - b << endl;
-        cout << "Product: " << a * b << endl;
-        cout << "Division: " << (float)a / b << endl;
-
-    }
+    cout << "Sum: " << a + b << endl;
+    cout << "Difference: " << a - b << endl;
+    cout << "Product: " << a * b << endl;
+    cout << "Division: " << (float)a / b << endl;
 
 
     // Take age input and print.
-    {
-        int age;
-        cin >> age;
+    int age;
+    cin >> age;
 
-        cout << "Age: " << age << endl;
-    }
+    cout << "Age: " << age << endl;
 
 
     // Take length and breadth of rectangle and print area:
@@ -54,10 +48,6 @@ int main() {
     fahrenheit = (celsius * 9 / 5) + 32;
 
     cout << "Temperature in fahrenheit: " << fahrenheit << endl;
-
-
-
-
 
     return 0;
     
